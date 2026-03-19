@@ -1,0 +1,87 @@
+:root {
+    --font-body: 'Segoe UI', Tahoma, sans-serif;
+    --font-heading: 'Segoe UI', Tahoma, sans-serif;
+
+    --radius-sm: 4px;
+    --radius-md: 7px;
+    --radius-lg: 8px;
+
+    --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.45);
+
+    --z-shell: 20;
+    --z-toast: 30;
+    --z-modal: 40;
+}
+
+body[data-theme='black-red'] {
+    --bg-0: #070707;
+    --bg-1: #101012;
+    --bg-2: #17171a;
+    --panel: rgba(14, 14, 18, 0.92);
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --accent: #ff3b42;
+    --accent-2: #ff6a33;
+    --accent-soft: rgba(255, 59, 66, 0.18);
+    --text-0: #f7f8fb;
+    --text-1: #ced1db;
+    --text-2: #9ba1ad;
+    --success: #2bc87a;
+    --warning: #f2b73e;
+    --danger: #ff4d64;
+    --info: #4fb4ff;
+}
+
+body[data-theme='black-gold'] {
+    --bg-0: #080806;
+    --bg-1: #10100d;
+    --bg-2: #181812;
+    --panel: rgba(16, 16, 11, 0.92);
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --accent: #f4a900;
+    --accent-2: #ffd35a;
+    --accent-soft: rgba(244, 169, 0, 0.2);
+    --text-0: #fcfbf5;
+    --text-1: #dfdccf;
+    --text-2: #afaa99;
+    --success: #5cd58b;
+    --warning: #ffbe4d;
+    --danger: #ff6a5a;
+    --info: #58c8ff;
+}
+
+body[data-theme='slate-cyan'] {
+    --bg-0: #05080c;
+    --bg-1: #0a1118;
+    --bg-2: #111b24;
+    --panel: rgba(10, 16, 23, 0.92);
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --accent: #07d1cc;
+    --accent-2: #5af0da;
+    --accent-soft: rgba(7, 209, 204, 0.2);
+    --text-0: #effaff;
+    --text-1: #cae3ee;
+    --text-2: #90a9b5;
+    --success: #59e59e;
+    --warning: #ffc857;
+    --danger: #ff667f;
+    --info: #66cbff;
+}
+
+body[data-theme='graphite-ember'] {
+    --bg-0: #060606;
+    --bg-1: #0f0f10;
+    --bg-2: #191817;
+    --panel: rgba(15, 14, 13, 0.94);
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --accent: #f07a2d;
+    --accent-2: #f4b259;
+    --accent-soft: rgba(240, 122, 45, 0.18);
+    --text-0: #f7f2ea;
+    --text-1: #d8cec0;
+    --text-2: #a89f94;
+    --success: #67d38c;
+    --warning: #f1bf59;
+    --danger: #ff7a66;
+    --info: #64c5ff;
+}
