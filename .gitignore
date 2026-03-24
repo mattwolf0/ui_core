@@ -1,6 +1,5 @@
 web/node_modules/
 web/.vite/
-web/build/
 web/dist/
 
 *.log

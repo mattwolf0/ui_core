@@ -4,11 +4,13 @@ ui_core is a shared UI resource for FiveM servers. I started it because I did no
 
 It has a Lua bridge and a React panel. Other resources can open the UI, send data to it, and get actions back from the player.
 
+The built web files are already included, so the resource can be added to a server without running the web build first.
+
 ## What is inside
 
 - FiveM resource manifest
 - Lua client and server files
-- React source for the NUI panel
+- React source and built NUI files
 - Views for members, ranks, storage, logs, crafting, and skills
 - Basic department example
 
